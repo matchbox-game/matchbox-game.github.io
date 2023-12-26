@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #eee;
+    color: #3A3A3A;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1rem;
+    
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+ol, ul, menu {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2.0rem;
+   
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.15rem;
+}
+
+h4 {
+    font-size: 0.9rem;
+}
+
+a {
+    color: #3535f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f73535;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+svg {
+    fill: #333;
+}
+
+.mainbutt{ 
+    	
+}
+
+#btnsend, #btncl {
+   background:#f7f7f7;
+   color:#3A3A3A; 
+   border: solid #3A3A3A 1px;
+   width: auto;
+   display:inline-block;
+   font-size:.8rem;
+   padding:.5rem 1.6rem;
+}
+
+#btnsend:hover, #btnsend:focus, #btncl:hover, #btncl:focus{
+	color:#1FF23B;
+	
+     border: solid #1FF23B 1px;
+}
+
+.inputelm, textarea {
+    width:80%!important;
+	height:20px;
+    margin-top:10px;
+        
+	color: #333;
+    padding:0 15px 2px;
+	border:1px solid #333;
+	background: #f7f7f7;
+	box-shadow:0px 0px 0px 2px transparent;
+	-webkit-transition:box-shadow 0.3s;
+	transition:box-shadow 0.3s;
+}
+
+input:not([type=submit]):not([type=file]):focus, textarea:focus {
+		border-color:#3535f7;
+        color: #3535f7;
+		outline:none;
+    
+}
+
+input[type=submit][disabled] {
+    background: #3A3A3A;
+}
+
+input[type=submit][disabled]:hover {
+    background: #3A3A3A;
+}
+
+textarea{
+    width:80%!important;
+    height: 70px;
+    margin-bottom:15px;
+}
+
+/*Stile selection text */
+::selection {
+    background: #3A3A3A;
+    color: #dedede;
+}
+
+::-moz-selection {
+    background: #3A3A3A;
+    color: #dedede;
+}
+
+/*-- Scrool stile  ------------------------------*/
+
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
+
+/* -----------------------------------------------------------------------------------  */
+/*Flex Horisontal Center*/
+.flexgrc {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flexgrb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.flexgrsb {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*Flex Vertical Center*/
+.flexvrc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Animation*/
+.anmatest {
+    transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+}
+/* -----------------------------------------------------------------------------------  */
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#centerbox {
+    height: 96%;
+    max-width: 960px;
+    width: 100%;
+}
+
+#head, #menu, #footer {
+    
+    flex: 0 0 auto;
+    padding: 1%;
+    width: 98%;
+}
+
+#footer {
+    margin-top: 25px;
+}
+
+#head, #menu {
+    background: #3A3A3A;
+}
+#content {
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+#svg_game_name {
+    fill: #E96B45;
+}
