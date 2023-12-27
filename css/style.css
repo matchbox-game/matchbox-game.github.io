@@ -49,6 +49,7 @@ h3 {
 h4 {
     font-size: 1rem;
     margin-left: 1em;
+    font-weight: bold;
 }
 
 p {
@@ -62,6 +63,7 @@ p {
 a {
     color: #3535f7;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 a:hover {
