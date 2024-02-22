@@ -203,6 +203,13 @@ textarea{
     align-items: center;
 }
 
+.flexapplinks {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
 /*Animation*/
 .anmatest {
     transition: all.4s ease;
